@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.search-input {
+  background-color: rgb(78, 75, 75);
+  border: 0;
+  height: 28px;
+  width: 350px;
+  padding-left: 5px;
+  outline: none;
+  flex-grow: 1;
+  color: aliceblue;
+
+  margin: 0;
+}
+.searchable-container {
+  background-color: rgb(78, 75, 75);
+  border: white 0.5px solid;
+  height: 32px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.search-icon {
+  margin-right: 10px;
+  color: aliceblue;
+}
+.search-button {
+  border: 0;
+  background-color: transparent;
+}

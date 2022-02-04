@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
+  background-color: black;
+  color: aliceblue;
+}
+.not-found-img {
+  width: 30%;
+}
+@media screen and (max-width: 767px) {
+  .not-found-img {
+    width: 60%;
+  }
+}
+.not-found-heading {
+  font-size: 24px;
+}
+.not-found-para {
+  font-size: 14px;
+}

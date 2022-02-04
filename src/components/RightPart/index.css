@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.jobs-list-style {
+  list-style: none;
+  padding-left: 0;
+}
+.link-style {
+  text-decoration: none;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+@media screen and (max-width: 767px) {
+  .error-view-container {
+    height: 50vh;
+  }
+}
+.fail-btn {
+  height: 30px;
+  color: aliceblue;
+  background-color: #4f46e5;
+  border: 0px;
+  width: 60px;
+  border-radius: 5px;
+}
+.failure-heading-text {
+  font-size: 24px;
+}
+.failure-description {
+  font-size: 13px;
+}
+.failure-img {
+  width: 50%;
+}

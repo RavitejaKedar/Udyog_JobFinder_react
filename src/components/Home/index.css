@@ -1,0 +1,112 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 10%;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+
+  color: aliceblue;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    max-width: 1110px;
+    width: 40vw;
+    justify-content: left;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-mobile-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-desktop-img {
+    display: none;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 36px;
+  color: aliceblue;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 66px;
+    text-align: left;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  margin-top: 36px;
+  font-size: 14px;
+  line-height: 28px;
+  color: aliceblue;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 23px;
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
+.shop-now-button {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .shop-now-button {
+    width: 150px;
+    font-size: 16px;
+  }
+}

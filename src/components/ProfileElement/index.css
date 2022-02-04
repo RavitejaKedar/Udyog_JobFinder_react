@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+.profile-bg {
+  height: 160px;
+  background: #c9ccd3;
+  background-image: linear-gradient(
+    -180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  background-blend-mode: lighten;
+  padding: 20px;
+  border-radius: 30px;
+}
+.profile-image {
+  width: 40px;
+}
+.fail-container {
+  height: 200px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.name-style {
+  font-size: 18px;
+  color: #4f46e5;
+}
+.para-style {
+  font-size: 12px;
+  color: rgb(67, 63, 63);
+}
+.button-style {
+  height: 30px;
+  color: aliceblue;
+  background-color: #4f46e5;
+  border: 0px;
+  width: 60px;
+  border-radius: 5px;
+}
